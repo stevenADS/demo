@@ -13,17 +13,8 @@ namespace WebApplication10
         {
             protected void btnSubmit_Click(object sender, EventArgs e)
             {
-                Response.Write(txtName.Text + "</br>");
+             
 
-                Response.Write(lstLocation.SelectedItem.Text + "</br>");
-
-                lblName.Visible = false;
-                txtName.Visible = false;
-                lstLocation.Visible = false;
-                chkC.Visible = false;
-                chkASP.Visible = false;
-                rdFemale.Visible = false;
-                btnSubmit.Visible = false;
             }
         }
 
